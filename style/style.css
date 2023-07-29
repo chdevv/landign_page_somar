@@ -516,11 +516,7 @@ iframe{
 			height: 210px;
 		}
 
-		.c-iframe{
-			padding-top: 50px;
-			border: none;
-			border-top: 1px solid white;
-		}
+
 
 		.home-img{
 		  display: flex;
@@ -592,6 +588,11 @@ iframe{
     transition: 0.5s ease;
   }
 
+  .c-iframe{
+    padding-top: 50px;
+    border: none;
+    border-top: 1px solid white;
+  }
 }
 
 
