@@ -147,7 +147,6 @@ body{
   display: flex;
   flex-direction: column;
 }
-
 .home-h3{
   font-size: clamp(3.5rem,5vw,4.7rem);
   color: #1ce000;
