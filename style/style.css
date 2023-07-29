@@ -28,8 +28,11 @@ time, mark, audio, video {
 	outline: none;
 }
 
+.text-dark{
+	color: #139700;
+}
 .btn-color{
-	background-color: #cf9b01; 
+	background-color: #c79500; 
 }
 
 ::-webkit-scrollbar{
