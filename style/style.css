@@ -587,13 +587,12 @@ iframe{
     font-size: clamp(2rem, 2vw, 3rem);
     transition: 0.5s ease;
   }
-
   .c-iframe{
     padding-top: 50px;
     border: none;
     border-top: 1px solid white;
   }
-  
+
 }
 
 
