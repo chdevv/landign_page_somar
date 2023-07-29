@@ -139,7 +139,7 @@ body{
   padding: 0px 20px;
   padding-top:60px;
   height: 100vh;
-  min-height: 700px;
+  
   max-height: 900px;
 }
 
@@ -507,6 +507,7 @@ iframe{
 @media screen and (max-width: 800px) and (orientation: portrait){
 	.home{
 	 		flex-direction: column;
+      min-height: 700px;
 	 		gap:70px;
 	 	}
 
