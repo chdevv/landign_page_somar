@@ -44,7 +44,7 @@ time, mark, audio, video {
 html{
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding:60px;
+  scroll-padding: 10%;
   background-color: #111;
 }
 
