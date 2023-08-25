@@ -204,8 +204,8 @@ body{
 
 .home-img > img{
   position: relative;
-  width: 70%;
-  min-width:240px;
+  width: 80%;
+  min-width:350px;
   max-width: 500px;
   animation-name: flutuar;
   animation: flutuar 2.2s infinite;
@@ -498,52 +498,64 @@ iframe{
 
 @media screen and (max-width: 850px){
 	.c-sobre{
-			flex-direction: column;
+		flex-direction: column;
 	}
 }
 
 @media screen and (max-width: 800px) and (orientation: portrait){
 	.home{
-	 		flex-direction: column;
-      min-height: 700px;
-	 		gap:70px;
-	 	}
+ 		flex-direction: column;
+    min-height: 700px;
+ 		gap:70px;
+	}
 
+  .home-text{
+    text-align: center;
+  }
+
+  .home-text h3{
+    font-size: clamp(3.5rem, 3.5vw, 3.8rem);
+    padding-bottom: 10px;
+  }
+
+  .home-text p{
+    padding-bottom: 20px;
+  }
+
+  .home .btn-color{
+    margin: 0 auto;
+  }
 
 	.links-footer{
-			height: 210px;
-		}
+	  height: 210px;
+	}
 
-
-
-		.home-img{
-		  display: flex;
-		  justify-content: center;
-		  padding: 0px;
-		}
-
-
+	.home-img{
+	  display: flex;
+	  justify-content: center;
+	  padding: 0px;
+	}
 }
 
 @media screen and (max-width: 800px){
-	 	.ul-header{
-	 		display: none;
-	 	}
-	 	.c-servicos{
-			flex-direction: column;
-			align-items: center;
-		}
+ 	.ul-header{
+ 		display: none;
+ 	}
+ 	.c-servicos{
+		flex-direction: column;
+		align-items: center;
+	}
 
-		.c-depoimentos{
-			flex-direction: column;
-      align-items: center;
-		}
+	.c-depoimentos{
+		flex-direction: column;
+    align-items: center;
+	}
 
-		.c-contato{
-			flex-direction: column;
-		}
+	.c-contato{
+		flex-direction: column;
+	}
 
-		.ul-header {
+	.ul-header {
     display: flex;
     flex-direction: column;
     position: fixed;
