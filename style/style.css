@@ -34,7 +34,8 @@ time, mark, audio, video {
 	color: #139700;
 }
 .btn-color{
-	background-color: #d19c00; 
+	background-color: #ffc410; 
+  color: black;
 }
 
 ::-webkit-scrollbar{
@@ -139,7 +140,6 @@ body{
   padding: 0px 20px;
   padding-top:60px;
   height: 100vh;
-  
   max-height: 900px;
 }
 
@@ -176,7 +176,6 @@ body{
   text-align: center;
   border: none;
   outline: none;
-  box-shadow: 1px 1px 1px rgb(55, 55, 55);
   border-radius: 15px;
   border: 1px solid black;
   padding: 15px 20px;
@@ -184,12 +183,12 @@ body{
   cursor: pointer;
   transition: 0.5s;
   font-size: clamp(2rem,1vw,2rem);
-  color: white;
+  color: black;
 }
 
-.home-text a:hover {
+.btn-hover:hover {
   background-color: white;
-  color: #1ce000;
+  color: green;
 }
 
 .home-text a:active{
@@ -326,7 +325,6 @@ body{
   cursor: pointer;
   transition: 0.5s;
   font-size: clamp(1.4rem,1.4vw,1.8rem);
-  color: white;
 }
 
 .c-text_sobre a:hover {
