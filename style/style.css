@@ -434,13 +434,19 @@ body{
   padding: 5px;
 }
 .links-footer a{
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: underline;
 }
 .links-footer a:hover {
    color: #1ce000;
-
 }
+
+.whatsapp-icon{
+  width: clamp(2rem,2vw,3rem);
+}
+
 .footer-email{
   color: white;
 }
